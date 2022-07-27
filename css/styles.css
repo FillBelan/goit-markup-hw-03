@@ -3,8 +3,20 @@
   --title-text-color: #212121;
   --accent-text-color: #2196F3;
 }
-* {box-sizing: border-box;}
-h1, h2, h3, h4, h5, h6, ul, li, p {
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
   margin: 0;
   padding-left: 0;
 }
@@ -14,6 +26,7 @@ body {
   background-color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
 }
+
 .container {
   width: 1200px;
   margin-right: auto;
@@ -94,10 +107,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
- }
+}
 
 .hero-button {
- font-family: 'Roboto';
+  font-family: 'Roboto';
   cursor: pointer;
   color: #FFFFFF;
   background-color: var(--accent-text-color);
@@ -112,8 +125,10 @@ body {
   border-radius: 4px;
   border: 1px solid transparent;
 }
+
 .advanteges {
-  padding: 94px 215px;}
+  padding: 94px 215px;
+}
 
 .advanteges-title {
   color: var(--title-text-color);
@@ -130,6 +145,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 .team {
   background-color: #F5F4FA;
   padding-top: 94px;
@@ -156,7 +172,7 @@ body {
   background-color: #FFFFFF;
   display: inline-block;
   text-align: center;
-  }
+}
 
 .team-title {
   color: var(--title-text-color);
@@ -175,11 +191,13 @@ body {
   letter-spacing: 0.03em;
 }
 
-.portfolio {}
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
-.pottfolio-list {
-  margin: 0;
-  padding-left: 0;
+.portfolio-list {
+  text-align: center;
 }
 
 .portfolio-btn {
@@ -197,7 +215,6 @@ body {
   padding-left: 22px;
   padding-right: 22px;
   border: 0;
- 
 }
 
 .portfolio-btn:hover,
@@ -207,13 +224,26 @@ body {
 }
 
 .portfolio-item {
-   display: inline-block;
-    margin-left: 0;
- }
+  display: inline-block;
+  margin-left: 0;
+}
+
+.projects {
+  margin-top: 30px;
+}
 
 .portfolio-link {}
 
-.portfolio-projeсts {}
+.portfolio-projeсts-list {
+  margin-top: 30px;
+}
+
+.portfolio-projects-item {
+  display: inline-block;
+  border: 1px solid #EEEEEE;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
 
 .portfolio-title {
   color: var(--title-text-color);
@@ -221,6 +251,9 @@ body {
   font-size: 18px;
   line-height: 2.0;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
+  margin-top: 20px;
+  margin-left: 24px;
 }
 
 .potfolio-text {
@@ -228,6 +261,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin-left: 24px;
 }
 
 .footer-logo {
