@@ -1,0 +1,234 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196F3;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*  цвет основного текстаbackground: #212121;  */
+/* вторичный текст цвета background: #757575; */
+/* белый #E5E5E5 */
+/* акцент background: #2196F3; */
+/* фон команды background: #F5F4FA; */
+/* ФОН СЕКЦИИ 1 background: #2F303A; */
+
+.logo {
+  color: var(--accent-text-color)
+}
+
+.header-logo {
+  color: var(--title-text-color);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.header-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-text-color);
+}
+
+.contacts-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-text-color)
+}
+
+.hero {
+  background-color: #2F303A;
+}
+
+.hero-title {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+ font-family: 'Roboto';
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #2196F3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.advanteges-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advanteges-text {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+
+.team-title-main,
+.working-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.portfolio {}
+
+.pottfolio-list {
+  margin: 0;
+  padding-left: 0;
+}
+
+.portfolio-btn {
+  cursor: pointer;
+  color: var(--title-text-color);
+  background-color: #F5F4FA;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: 0;
+ 
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #FFFFFF;
+  background-color: var(--accent-text-color);
+}
+
+.portfolio-item {
+   display: inline-block;
+    margin-left: 0;
+ }
+
+.portfolio-link {}
+
+.portfolio-projeсts {}
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.0;
+  letter-spacing: 0.06em;
+}
+
+.potfolio-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo {
+  color: #FFFFFF;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: #2F303A;
+}
+
+.footer-map,
+.footer-link {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-text-color);
+}
+
+.footer-map:hover,
+.footer-map:focus {
+  color: var(--accent-text-color);
+}
