@@ -32,6 +32,8 @@ body {
   margin-right: auto;
   margin-left: auto;
   outline: 1px solid red;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list {
@@ -52,6 +54,16 @@ body {
 .logo {
   color: var(--accent-text-color)
 }
+.container-nav {
+  display: flex;
+align-items: center;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+  .header-nav { 
+    display: flex;
+  }
 
 .header-logo {
   color: var(--title-text-color);
@@ -60,17 +72,22 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
 }
-
-.header-link {
+.header-item {
+  margin-left: 93px;
+}
+  .header-link {
   color: var(--title-text-color);
+  font-style: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.header-list{
+  display: flex;
+  align-items: center;
 }
 
 .header-link:hover,
@@ -89,6 +106,12 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-text-color)
+}
+.contacts-list {
+  display: flex;
+  margin-left: 331px;
+ margin-left: 215px;
+ gap: 50px;
 }
 
 .hero {
@@ -130,6 +153,11 @@ body {
   padding: 94px 215px;
 }
 
+.advanteges-list {
+  display: flex;
+  justify-content: center;
+}
+
 .advanteges-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -167,10 +195,18 @@ body {
   padding-bottom: 94px;
 }
 
+.working-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
+}
 .team-item {
   padding-bottom: 30px;
   background-color: #FFFFFF;
-  display: inline-block;
   text-align: center;
 }
 
@@ -183,6 +219,7 @@ body {
   margin-bottom: 10px;
   margin-top: 30px;
 }
+
 
 .team-text {
   color: var(--primary-text-color);
@@ -264,6 +301,12 @@ body {
   margin-left: 24px;
 }
 
+.footer {
+  background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer-logo {
   color: #FFFFFF;
   font-family: 'Raleway';
@@ -271,14 +314,15 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-}
+  }
+  .footer-adress {
+    margin-top: 20px;
+  }
 
-.footer {
-  background-color: #2F303A;
-}
+  .footer-item {
+    margin-top: 9px;
+  }
 
 .footer-map,
 .footer-link {
