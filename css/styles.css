@@ -31,7 +31,6 @@ body {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  outline: 1px solid red;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -54,16 +53,20 @@ body {
 .logo {
   color: var(--accent-text-color)
 }
+
 .container-nav {
   display: flex;
-align-items: center;
-padding-top: 32px;
-padding-bottom: 32px;
+  align-items: center;
+  height: 80px;
 }
 
-  .header-nav { 
-    display: flex;
-  }
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.header-nav {
+  display: flex;
+}
 
 .header-logo {
   color: var(--title-text-color);
@@ -73,11 +76,12 @@ padding-bottom: 32px;
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
-.header-item {
-  margin-left: 93px;
-}
-  .header-link {
+
+.header-item {}
+
+.header-link {
   color: var(--title-text-color);
   font-style: "Roboto";
   font-weight: 500;
@@ -85,9 +89,11 @@ padding-bottom: 32px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-list{
+
+.header-list {
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 
 .header-link:hover,
@@ -107,11 +113,11 @@ padding-bottom: 32px;
 .contacts-link:focus {
   color: var(--accent-text-color)
 }
+
 .contacts-list {
   display: flex;
-  margin-left: 331px;
- margin-left: 215px;
- gap: 50px;
+  margin-left: auto;
+  gap: 50px;
 }
 
 .hero {
@@ -204,6 +210,7 @@ padding-bottom: 32px;
   display: flex;
   gap: 30px;
 }
+
 .team-item {
   padding-bottom: 30px;
   background-color: #FFFFFF;
@@ -269,18 +276,29 @@ padding-bottom: 32px;
   margin-top: 30px;
 }
 
-.portfolio-link {}
+.portfolio-projeсts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
 
 .portfolio-projeсts-list {
   margin-top: 30px;
 }
 
 .portfolio-projects-item {
-  display: inline-block;
+  width: 370px;
   border: 1px solid #EEEEEE;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
+
+.portfolio-link {
+  padding-left: 0;
+}
+
+
 
 .portfolio-title {
   color: var(--title-text-color);
@@ -299,6 +317,7 @@ padding-bottom: 32px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   margin-left: 24px;
+
 }
 
 .footer {
@@ -315,14 +334,15 @@ padding-bottom: 32px;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  }
-  .footer-adress {
-    margin-top: 20px;
-  }
+}
 
-  .footer-item {
-    margin-top: 9px;
-  }
+.footer-adress {
+  margin-top: 20px;
+}
+
+.footer-item {
+  margin-top: 9px;
+}
 
 .footer-map,
 .footer-link {
