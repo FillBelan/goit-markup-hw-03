@@ -126,10 +126,17 @@ body {
 }
 
 .hero {
-  background-color: #2F303A;
   height: 600px;
   padding-top: 200px;
-
+  background-color: black;
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
+rgba(47, 48, 58, 0.4)), 
+url(../images/hero-bg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-width: 1600px;
+margin: 0 auto;
 }
 
 .hero-title {
@@ -227,6 +234,21 @@ body {
   text-align: center;
 }
 
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--accent-text-color);
+  display: block;
+ }
+
+.team-soc {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
 .team-title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -236,17 +258,19 @@ body {
   margin-bottom: 10px;
 }
 
-.team-description {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .team-text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
+
+.team-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 .portfolio {
   padding-top: 94px;
